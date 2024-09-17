@@ -17,7 +17,6 @@ def create_video(message):
     font_scale = 10
     font_thickness = 10
     font_color = (255, 255, 255)
-    message_size = cv2.getTextSize(message, font, font_scale, font_thickness)
     x, y = width, height // 2
     for i in range(72):
         frame.fill(0)
